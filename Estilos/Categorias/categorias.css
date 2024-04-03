@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ea7629;
+}
+
+header {
+    background-color: #ff4000;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.seccion1 {
+	margin: 30px;
+}
+
+.seccion2 {
+    margin: 10px;
+}
+
+section p {
+	color: white;
+	line-height: 1.5;
+}
+
+footer{
+    background-color: #ff4000;
+    color: #fff;
+    text-align: center;
+}
+
+footer div table tr {
+    text-align: center;
+    width:100%;
+ }
+
+footer .pieti{
+    color: white;
+    font-size: 10px;
+}
+
+table{
+    width: 100%;
+}
+
+.card {
+    margin-bottom: 30px;
+    border: 2px solid #000000;
+    border-radius: .25rem;
+    box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.card-img-top {
+    height: auto;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: .75rem;
+}
+
+.card-text {
+    margin-bottom: 1rem;
+}
+
+.list-group-item {
+    border-color: #000000;
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    max-width: 97%;
+}

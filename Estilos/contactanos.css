@@ -1,0 +1,87 @@
+/*Menu Horizontal*/
+body {
+	margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #ea7629;
+}
+
+header {
+    background-color: #ff4000;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+/*Seccion de contacto*/
+main {
+	display: flex;
+	justify-content: space-around;
+	padding: 20px;
+}
+
+section {
+	
+	border-radius: 5px;
+	padding: 20px;
+	width: 45%;
+}
+
+section h2 {
+	margin-top: 0;
+}
+
+section p {
+	margin-bottom: 10px;
+}
+
+section img {
+	border-radius: 5px;
+	width: 100%;
+}
+
+#sucursal1{
+    margin-left: 20%;
+}
+
+tr{
+    padding-bottom: -10%;
+}
+
+/*footer*/
+footer{
+    background-color: #ff4000;
+    color: #fff;
+}
+
+.pieti{
+    text-align: center;
+    color: black;
+    font-size: 10px;
+}
+
+#alineamiento{
+    margin-left: 100%;
+}
+
+table{
+    width: 100%;
+}
